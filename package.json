@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [bonzo (v2.0.0)](https://github.com/ded/bonzo) [![npm package](https://img.shields.io/npm/v/npmtest-bonzo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bonzo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bonzo.svg)](https://travis-ci.org/npmtest/node-npmtest-bonzo)",
+    "description": "#### basic test coverage for  [bonzo (v2.0.0)](https://github.com/ded/bonzo)  [![npm package](https://img.shields.io/npm/v/npmtest-bonzo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bonzo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bonzo.svg)](https://travis-ci.org/npmtest/node-npmtest-bonzo)",
     "devDependencies": {
         "bonzo": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.5"
+    "version": "0.0.8"
 }
